@@ -1,6 +1,6 @@
 import Hero from "@/components/home/Hero";
 import About from "@/components/home/About";
-// import Features from "@/components/home/Features";
+import Features from "@/components/home/Features";
 // import Products from "@/components/home/Products";
 // import Themes from "@/components/home/Collection"; // Ganti nama sesuai file Anda
 // import Testimonials from "@/components/home/Testimonials";
@@ -12,12 +12,12 @@ export default function Home() {
     <div className="relative w-full overflow-hidden bg-[#FDFBF7]">
       <Hero />
       <About />
-      {/* <Features />
-      <Products />
+      <Features />
+      {/* <Products />
       <Themes />
       <Testimonials />
       <Pricing />
-      <FinalCTA /> */}
+      <FinalCTA /> */} 
     </div>
   );
 }
